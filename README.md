@@ -19,8 +19,9 @@ Installation
 ============
 
 ``` sh
-ftp https://raw.github.com/qbit/snap/master/snap
-sudo install -m 755 snap /usr/local/bin
+git clone https://github.com/qbit/snap.git
+cd snap
+sudo make install
 ```
 
 Usage
